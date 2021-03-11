@@ -6,8 +6,11 @@ name = "pypi"
 [packages]
 pandas = "*"
 numpy = "*"
+wheel = "*"
+lambdata-21-singparvi = {version = "==0.0.1", index = "https://test.pypi.org/simple/"}
 
 [dev-packages]
+twine = "*"
 
 [requires]
 python_version = "3.9"

@@ -12,7 +12,7 @@ setuptools.setup(
     description="A collection of Data Science functions",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/singparvi/lambdata-21",
     project_urls={
         "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
     },
@@ -22,5 +22,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     packages=setuptools.find_packages(),
+    install_requires=REQUIRED,
     python_requires=">=3.6",
 )
