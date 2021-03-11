@@ -8,11 +8,8 @@ import numpy as np
 FAV_NUM = [1,2,3,4,5555,55243232]
 
 def df_cleaner(df):
-    """Clean a git
-
-    Args:
-        df ([type]): [description]
+    """Clean a DataFrame
     """
     # TO DO 
     
-    pas
+    pass
