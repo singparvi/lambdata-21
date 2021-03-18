@@ -5,11 +5,19 @@
 import pandas as pd
 import numpy as np
 
-FAV_NUM = [1,2,3,4,5555,55243232]
+COLOR = ['cyan', 'teal', 'mauve', 'blue']
+FAVOURITE_NUMBERS = [2.71, 101, 55, 12, 3.14]
+
+def increment(x):
+    return x+1
 
 def df_cleaner(df):
     """Clean a DataFrame
     """
     # TO DO 
     
+    pass
+
+def df_destroyer(df):
+    'Destroy a DF'
     pass
