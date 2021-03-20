@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 class MyDataFrame(pd.DataFrame):
-
+    pass
 
 class BareMinimumClass: # capitalize each layer
     pass
@@ -28,7 +28,6 @@ class Complex:
         Instead we will get the string we are going to specify"""
 
         return f'({self.r}, {self.i})'
-
 
 class SocialMediaUser:
     def __init__(self, name, location, upvotes=0):
